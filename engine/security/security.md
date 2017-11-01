@@ -167,7 +167,7 @@ infrastructure around the container:
  - network management happens outside of the containers, enforcing
    separation of concerns as much as possible, meaning that a container
    should never need to perform `ifconfig`,
-   `route`, or ip commands (except when a container
+   `route`, or `ip` commands (except when a container
    is specifically engineered to behave like a router or firewall, of
    course).
 
